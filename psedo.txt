@@ -1,0 +1,28 @@
+HomeView{
+    addTask{
+        input field,
+        submitButton
+    },
+    toDoList{
+        individual tasks{
+            task name, 
+            description,
+            controls{
+                edit,
+                importance,
+                completed,
+                deleted
+            }
+        },
+        clearAll{
+            clearAllButton
+        }
+    },
+}   completedTasks{
+        individualTasks
+    }
+AboutView{
+    a brief decription of the site its functionality and its intended purposes
+}
+
+for ease of use and viewing these can be all components on the same page
